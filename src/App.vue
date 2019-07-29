@@ -16,18 +16,18 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <LatestMovie/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import LatestMovie from './components/LatestMovie.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LatestMovie
   },
   data () {
     return {
